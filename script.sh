@@ -1,3 +1,5 @@
+#!/bin/bash
+
 printf '\033[0;31m'
 
 sudo apt-get -y install php7.0 libapache2-mod-php7.0 mcrypt php7.0-mcrypt php-mbstring php-pear php7.0-dev apache2
