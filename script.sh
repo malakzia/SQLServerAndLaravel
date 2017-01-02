@@ -44,7 +44,7 @@ cd laravel
 
 
 echo $'<VirtualHost *:80>\nDocumentRoot /var/www/html/laravel/public\n<Directory /var/www/html/laravel/public>\nAllowOverride All\nRequire all granted\n</Directory>\n</VirtualHost>' > /etc/apache2/sites-available/000-default.conf
-sudo chmod -R 777 /var/www/laravel
+sudo chmod -R 777 /var/www/html/laravel
 
 
 systemctl restart apache2
