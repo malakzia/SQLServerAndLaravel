@@ -31,6 +31,10 @@ exit
 
 
 sudo su
+
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+
 cd /var/www/html/
 composer create-project laravel/laravel laravel --prefer-dist
 
