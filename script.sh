@@ -46,3 +46,4 @@ systemctl restart apache2
 exit
 
 printf '\033[0m'
+echo $'\n\n\nLaravel is successfully configured\nPlease configure its database configuration. See /config/database.php and .env file\n\n\n'
